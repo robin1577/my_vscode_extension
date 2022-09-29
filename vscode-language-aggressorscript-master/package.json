@@ -1,0 +1,65 @@
+{
+    "name": "cna",
+    "displayName": "Cobalt Strike Aggressor Script",
+    "description": "Cobalt Strike Aggressor Script Language Extension for Visual Studio Code.",
+    "keywords": ["cna", "cobalt", "cs"],
+    "version": "1.0.0",
+    "homepage": "https://github.com/Twi1ight/vscode-language-aggressorscript",
+	"license": "BSD-3-Clause",
+	"icon": "images/icon.png",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Twi1ight/vscode-language-aggressorscript.git"
+    },
+    "publisher": "Twi1ight",
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    
+    "contributes": {
+        "languages": [
+            {
+                "id": "cna",
+                "aliases": [
+                    "Aggressor Script",
+                    "cna"
+                ],
+                "extensions": [
+                    ".cna"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "cna",
+                "scopeName": "source.cna",
+                "path": "./syntaxes/cna.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "cna",
+                "path": "./snippets/cna.json"
+            }
+        ]
+    },
+    "author": {
+        "name": "Twi1ight",
+        "url": "https://github.com/Twi1ight/"
+    },
+    "credits": [
+        {
+            "name": "Carlos Perez",
+            "url": "https://www.darkoperator.com/"
+        },
+        {
+            "name": "Paul Laîné",
+            "url": "https://twitter.com/am0nsec"
+        }
+    ]
+}
