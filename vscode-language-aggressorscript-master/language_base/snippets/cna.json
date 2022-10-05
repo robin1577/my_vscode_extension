@@ -2588,7 +2588,7 @@
 			"}"
 		]
 	},
-	"beacons": {
+	"on beacons": {
 		"description": "Fired when the team server sends over fresh information on all of our Beacons. This occurs about once each second.",
 		"prefix": "beacons",
 		"body": [
